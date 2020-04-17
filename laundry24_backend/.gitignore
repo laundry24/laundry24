@@ -1,0 +1,74 @@
+# 일단빼봄
+gradle/
+settings.gradle
+gradlew
+gradlew.bat
+
+# Cache of project
+.gradletasknamecache
+
+# 여기서부터는 default + http://www.gitignore.io/api/java,gradle,eclipse,intellij 참고 
+HELP.md
+.gradle
+build/
+#!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+### Java ###
+# Compiled class file
+*.class
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+
+
