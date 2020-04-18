@@ -1,13 +1,5 @@
-# 일단빼봄
-gradle/
-settings.gradle
-gradlew
-gradlew.bat
 
-# Cache of project
-.gradletasknamecache
-
-# 여기서부터는 default + http://www.gitignore.io/api/java,gradle,eclipse,intellij 참고 
+#default + http://www.gitignore.io/api/java,gradle,eclipse,intellij 참고 
 HELP.md
 .gradle
 build/
@@ -70,5 +62,5 @@ local.properties
 .idea/**/dictionaries
 .idea/**/shelf
 
-
-
+# Cache of project
+.gradletasknamecache
